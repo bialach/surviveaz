@@ -2,7 +2,9 @@
 <html lang="en">
     
     <head>
+
         <!-- Required meta tags always come first-->
+
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -15,64 +17,88 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
         <!--Website title comes next-->
+
         <title>SurviveAZ Outdoors </title>
     </head>
 
-        <!--Website content belongs below, between <body> tags-->
     <body>
 
-        <header>
-            <div>
-                <h1>SurviveAZ</h1>
-                <h2>Outdoors</h2>
+        <!--Website header belongs below, between <header> tags-->
+
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>SurviveAZ</h1>
+                        <h2>Outdoors</h2>
+                    </div>
+                </div>
             </div>
         </header>
 
-    <div>
-        <h2>Section 1, h2</h2>
-        <h3>Section 1, h3</h3>
-        <p>Section 1, paragraph 1</p>
+    <!--Website content belongs here, between the above and <body> tag below-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2>Section 1, h2</h2>
+            </div>
+            <div class="col">
+                <h3>Section 1, h3</h3>
+                <p>Section 1, paragraph 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-3">
+                <h2>Section 2, h2</h2>
+            </div>
+            <div class="col">
+                <h3>Section 2, h3</h3>
+                <p>Section 2, paragraph 2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2>Section 3, h2</h2>
+            </div>
+            <div class="col">
+                <h3>Section 3, h3</h3>
+                <p>Section 3, paragraph 3</p>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <h2>Section 2, h2</h2>
-        <h3>Section 2, h3</h3>
-        <p>Section 2, paragraph 2</p>
-    </div>
+    <!--Website footer belongs below, between <footer> tags-->
 
-        <div>
-        <h2>Section 3, h2</h2>
-        <h3>Section 3, h3</h3>
-        <p>Section 3, paragraph 3</p>
-    </div>
-
-
-        <!--Website footer belongs below, between <footer> tags-->
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Arizona</a></li>
-                <li><a href="#">Survival</a></li>
-                <li><a href="#">Gear</a></li>               
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-602-555-1234<br />
-            Email: info@surviveaz.com
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Arizona</a></li>
+                        <li><a href="#">Survival</a></li>
+                        <li><a href="#">Gear</a></li>               
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col-sm-4">
+                    Tel: 1-602-555-1234<br />
+                    Email: info@surviveaz.com
+                </div>
+            </div>
         </div>
     </footer>
 
-        <!--Website scripts belong below, between <script> tags-->
+    <!--Website scripts belong below, between <script> tags-->
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
