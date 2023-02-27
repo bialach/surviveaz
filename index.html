@@ -8,12 +8,15 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <!-- Bootstrap CSS -->
 
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-        <link rel="stylesheet" href="css/styles.css" />
 
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+
+        <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
         <!--Website title comes next-->
@@ -25,7 +28,7 @@
 
         <!--Website header belongs below, between <header> tags-->
 
-        <header class="jumbotron">
+        <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -39,16 +42,16 @@
     <!--Website content belongs here, between the above and <body> tag below-->
 
     <div class="container">
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
-                <h2>Section 1, h2</h2>
+                <h2 class="text-sm-right">Section 1, h2</h2>
             </div>
             <div class="col">
                 <h3>Section 1, h3</h3>
                 <p>Section 1, paragraph 1</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h2>Section 2, h2</h2>
             </div>
@@ -57,9 +60,9 @@
                 <p>Section 2, paragraph 2</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
-                <h2>Section 3, h2</h2>
+                <h2 class="text-sm-right">Section 3, h2</h2>
             </div>
             <div class="col">
                 <h3>Section 3, h3</h3>
@@ -90,7 +93,7 @@
                     <a href="http://twitter.com/">Twitter</a>
                     <a href="http://youtube.com/">YouTube</a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 text-center">
                     Tel: 1-602-555-1234<br />
                     Email: info@surviveaz.com
                 </div>
