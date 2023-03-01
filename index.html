@@ -39,74 +39,91 @@
             </div>
         </header>
 
-    <!--Website content belongs here, between the above and <body> tag below-->
-
-    <div class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Section 1, h2</h2>
-            </div>
-            <div class="col">
-                <h3>Section 1, h3</h3>
-                <p>Section 1, paragraph 1</p>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Section 2, h2</h2>
-            </div>
-            <div class="col">
-                <h3>Section 2, h3</h3>
-                <p>Section 2, paragraph 2</p>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Section 3, h2</h2>
-            </div>
-            <div class="col">
-                <h3>Section 3, h3</h3>
-                <p>Section 3, paragraph 3</p>
-            </div>
-        </div>
-    </div>
-
-    <!--Website footer belongs below, between <footer> tags-->
-
-    <footer>
-        <div class="container">
-            <div class="row">             
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Arizona</a></li>
-                        <li><a href="#">Survival</a></li>
-                        <li><a href="#">Gear</a></li>               
-                        <li><a href="#">Contact</a></li>
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#surviveazNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="surviveazNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="arizona.html">Arizona</a></li>
+                        <li class="nav-item"><a class="nav-link" href="survival.html">Survival</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5">
-                    <h5>Social</h5>
-                    <a href="http://instagram.com/">Instagram</a>
-                    <a href="http://facebook.com/">Facebook</a>
-                    <a href="http://twitter.com/">Twitter</a>
-                    <a href="http://youtube.com/">YouTube</a>
+            </div>
+        </nav>
+        
+    <!--Website content belongs here, between the above and <body> tag below-->
+
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right">Section 1, h2</h2>
                 </div>
-                <div class="col-sm-4 text-center">
-                    Tel: 1-602-555-1234<br />
-                    Email: info@surviveaz.com
+                <div class="col">
+                    <h3>Section 1, h3</h3>
+                    <p>Section 1, paragraph 1</p>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 col-md-3">
+                    <h2>Section 2, h2</h2>
+                </div>
+                <div class="col">
+                    <h3>Section 2, h3</h3>
+                    <p>Section 2, paragraph 2</p>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right">Section 3, h2</h2>
+                </div>
+                <div class="col">
+                    <h3>Section 3, h3</h3>
+                    <p>Section 3, paragraph 3</p>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <!--Website scripts belong below, between <script> tags-->
+        <!--Website footer belongs below, between <footer> tags-->
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+        <footer>
+            <div class="container">
+                <div class="row">             
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="arizona.html">Arizona</a></li>
+                            <li><a href="#">Survival</a></li>
+                            <li><a href="#">Gear</a></li>               
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a href="http://instagram.com/">Instagram</a>
+                        <a href="http://facebook.com/">Facebook</a>
+                        <a href="http://twitter.com/">Twitter</a>
+                        <a href="http://youtube.com/">YouTube</a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        Tel: 1-602-555-1234<br />   
+                        Email: info@surviveaz.com
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Website scripts belong below, between <script> tags-->
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
 
 
     </body>
