@@ -30,7 +30,7 @@ footer {
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right, black, orange);
-    color: white;
+    color: silver;
 }
 
 .row-content {
@@ -49,10 +49,10 @@ footer {
 
 
 footer a {
-    color: white;
+    color: silver;
 }   
 
 #telColor, #emailColor {
-    color:darkgreen;
+    color:black;
 }   
 
