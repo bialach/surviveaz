@@ -37,3 +37,16 @@ footer {
 
 .jumbotron {
     margin: 0;
+}
+
+
+footer a {
+    color:darkgreen;
+    text-decoration: none;
+}   
+
+#telColor, #emailColor {
+    color:darkgreen;
+    text-decoration: none;
+}   
+

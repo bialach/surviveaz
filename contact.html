@@ -63,33 +63,59 @@
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item active">Contact</li>
             </ol> 
-            <div class="row row-content align-items-center">
-                <div class="col-sm-4 order-sm-last col-md-3">
-                    <h2 class="text-sm-right">Section 1, h2</h2>
+            <form>
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                    </div>
                 </div>
-                <div class="col">
-                    <h3>Section 1, h3</h3>
-                    <p>Section 1, paragraph 1</p>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
                 </div>
-            </div>
-            <div class="row row-content align-items-center">
-                <div class="col-sm-4 col-md-3">
-                    <h2>Section 2, h2</h2>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                    </div>
+                    <div class="col-7">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                    </div>
                 </div>
-                <div class="col">
-                    <h3>Section 2, h3</h3>
-                    <p>Section 2, paragraph 2</p>
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    </div>
                 </div>
-            </div>
-            <div class="row row-content align-items-center">
-                <div class="col-sm-4 order-sm-last col-md-3">
-                    <h2 class="text-sm-right">Section 3, h2</h2>
+                <div class="form-group row">
+                    <div class="col offset-md-2">
+                        May we contact you?
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                            <label for="contactYes" class="form-check-label">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                            <label for="contactNo" class="form-check-label">No</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <h3>Section 3, h3</h3>
-                    <p>Section 3, paragraph 3</p>
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
                 </div>
-            </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <!--Website footer belongs below, between <footer> tags-->
@@ -109,14 +135,14 @@
                     </div>
                     <div class="col-6 col-sm-5 text-center">
                         <h5>Social</h5>
-                        <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                        <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                        <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                     </div>
                     <div class="col-sm-4 text-center">
-                        <i class="fa fa-phone fa-lg text-primary"></i> <a href="tel:+16025551234">(602) 555-1234</a><br />   
-                        <i class="fa fa-envelope fa-lg text-primary"></i> <a href="mailto: info@surviveaz.com">info@surviveaz.com</a>
+                        <a id="telColor" role="button" class="btn btn-link" href="tel:+16025551234"><i class="fa fa-phone fa-lg text-primary"></i>(602) 555-1234</a><br />   
+                        <a id="emailColor" role="button" class="btn btn-link" href="mailto: info@surviveaz.com"><i class="fa fa-envelope fa-lg text-primary"></i>info@surviveaz.com</a>
                     </div>
                 </div>
             </div>
