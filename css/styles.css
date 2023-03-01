@@ -23,13 +23,13 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(orange, white);
+    background-image: linear-gradient(orange, black);
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, black, gray, orange);
+    background-image: linear-gradient(to right, black, orange);
     color: white;
 }
 
@@ -49,12 +49,10 @@ footer {
 
 
 footer a {
-    color:darkgreen;
-    text-decoration: none;
+    color: white;
 }   
 
 #telColor, #emailColor {
     color:darkgreen;
-    text-decoration: none;
 }   
 
