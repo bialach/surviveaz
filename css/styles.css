@@ -56,3 +56,14 @@ footer a {
     color:black;
 }   
 
+/* #bestCamp {
+    color:black;
+}  */
+
+#bestCamp:hover {
+    background-color: orange;
+  }
+
+#bestCampBullet:before {
+    content: '\1F3D5'; margin-left: -20px; margin-right: 10px;;
+}
