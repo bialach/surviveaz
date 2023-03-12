@@ -56,6 +56,18 @@ footer a {
     color:black;
 }   
 
+/* #bestCamp {
+    color:black;
+}  */
+
+#bestCamp:hover {
+    background-color: orange;
+  }
+
+#bestCampBullet:before {
+    content: '\1F3D5'; margin-left: -20px; margin-right: 10px;;
+}
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -81,11 +93,28 @@ footer a {
     background-size: cover;
 }
 
+#sec1index, #sec2index, #sec3index {
+/*     background-image: url("../img/arizona2.png"); */
+    background-image: linear-gradient(to right, lightgray, orange);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+#sec2index {
+    text-align: center;
+}
 /* Rounds button */
 
 .btn {
     border-radius: 25px;
 }
+
+.offGrid { 
+    display: block;
+    text-align: center;
+  }
 
 /* Makes carousel Taller */
 
@@ -104,15 +133,22 @@ footer a {
 
 /* Center button trial and error */
 
-/*.container-button {
-    height: 200px;
-    position: relative;
+.btn-center {
+    text-align: center;
 }
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
-.vertical-center {
+/* .vertical-center {
     margin: 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
+} */
+
